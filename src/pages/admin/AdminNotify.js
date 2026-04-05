@@ -53,7 +53,6 @@ const AdminNotify = () => {
   };
 
   const today = new Date().toISOString().split('T')[0];
-  const nowTime = new Date().toTimeString().slice(0, 5);
 
   return (
     <AdminLayout>
